@@ -1,4 +1,4 @@
-import React, {Component, Fragment} from 'react';
+import React, {Component} from 'react';
 import FilmList from '../components/FilmList';
 import ViewMore from '../components/ViewMore';
 

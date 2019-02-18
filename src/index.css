@@ -6,9 +6,53 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.film-box {
+  background-color: lightgrey;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.film-box h1 {
+  margin: 0;
+  padding-bottom: 10px;
+  background-color: none;
+  border-bottom: 2px solid grey;
+}
+
+.film-list {
+  border-bottom: 2px solid grey;
+  margin: 0;
+  padding: 20px;
+}
+
+.film {
+  background-color: none;
+  margin: 5px 0;
+  padding: 10px;
+}
+
+.view-more {
+  border: 2px solid black;
+  background-color: lightblue;
+  text-align: center;
+  padding: 20px;
+  margin-top: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
 }
